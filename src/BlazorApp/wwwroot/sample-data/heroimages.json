@@ -1,17 +1,17 @@
 [
   {
     "name": "home",
-    "src": "images/woman-with-tablet.jpg",
-    "alt": "woman with glasses holding a tablet"
+    "src": "images/vidrio-label.jpg",
+    "alt": "glass dna"
   },
   {
     "name": "about",
-    "src": "images/motion-background.jpg",
-    "alt": "gray abstract background"
+    "src": "images/circos-encode.jpg",
+    "alt": "circos encode"
   },
   {
     "name": "portfolio",
-    "src": "images/design-desk.jpeg",
-    "alt": "desktop with books and laptop"
+    "src": "images/MochiPerfecto.jpg",
+    "alt": "Mochi the Perfect Cat"
   }
 ]

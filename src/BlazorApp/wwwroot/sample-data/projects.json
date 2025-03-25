@@ -1,22 +1,38 @@
 [
   {
-    "title": "10 Things To Know About Azure Static Web Apps 🎉",
-    "description": "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    "url": "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i"
+    "title": "MOMENTUM Program Project",
+    "description": "I am currently part of the MOMENTUM Program in a research project aimed to the understanding of genomic and epigenomic evolution of cancer in the response to epigenomic drugs.",
+    "url": "https://www.cabimer.es/en/research-groups/epigenetics-and-gene-expression/",
+    "image": "images/Momentum-sinfondo.png"
   },
   {
-    "title": "Web Development for Beginners",
-    "description": "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    "url": "https://github.com/microsoft/web-dev-for-beginners"
+    "title": "The Genetic Background of Meniere's disease",
+    "description": "I have worked on the analysis of genetic data from patients with Meniere's disease, and I have identified several genetic variants associated to the disease.",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0378595519304320?via%3Dihub",
+    "image": "images/inner-ear.jpg"
   },
   {
-    "title": "My Resume Site",
-    "description": "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    "url": "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website"
+    "title": "Tinnitus research European Consortium: from genetics to therapy",
+    "description": "I have participated in the Tinnitus research European Consortium, a collaborative project aimed at the identification of genetic variants associated to tinnitus as well as new combination personalized therapies for patients.",
+    "url": "https://uniti.tinnitusresearch.net/",
+    "image": "images/Uniti_Logo_uncircled.png"
   },
   {
-    "title": "GitHub Codespaces and github.dev",
-    "description": "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    "url": "https://www.youtube.com/watch?v=c3hHhRME_XI"
+    "title": "Collaborations and internationalization",
+    "description": "I have collaborated with several research groups in the development of new methods for the integration of omics data, including the identification of new biomarkers for rare disorders.",
+    "url": "https://loop.frontiersin.org/people/535875/network",
+    "image": "images/cabimer.png"
+  },
+  {
+    "title": "Teaching and dissemination",
+    "description": "I have participated in several teaching and dissemination activities, including the organization of workshops and courses on bioinformatics and genetics.",
+    "url": "https://www.youtube.com/watch?v=FyoeEp_TvLQ",
+    "image": "images/teaching.jpg"
+  },
+  {
+    "title": "Previous research projects",
+    "description": "I have worked on a variety of genetic research projects in the past, including a omic integration data on inner ear disorders, a machine learning model for the prediction of biomarkers associated to rare disorders, and a statistical analysis of genetic data.",
+    "url": "https://produccioncientifica.ugr.es/investigadores/453207/detalle",
+    "image": "images/image3.jpg"
   }
 ]

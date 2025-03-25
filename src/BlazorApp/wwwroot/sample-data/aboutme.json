@@ -1,12 +1,15 @@
 {
-  "description": "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.",
+  "description": "I'm a bioinformatician and genetics researcher part of the MOMENTUM program in CSIC. I have a strong background in computer science and bioinformatics, and I'm currently working on the development of new computational methods for the analysis of genetic data.",
   "skills": [
-    "Web design",
-    "User experience",
-    "Inclusive design",
-    "Focus group testing",
-    "Mobile user interfaces",
-    "Graphic design"
+    "Statistical analysis",
+    "Data visualization",
+    "Machine learning",
+    "Genetic data analysis",
+    "Bioinformatics",
+    "Python",
+    "R",
+    "SQL"
   ],
-  "detailOrQuote": "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all."
+    
+  "detailOrQuote": "I'm passionate about the development of new computational methods for the analysis of genetic data, and I'm always looking for new challenges and opportunities to learn and grow."
 }
