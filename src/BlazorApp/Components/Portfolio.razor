@@ -21,7 +21,7 @@
                     <a href="@project.Url" target="_blank" rel="noopener noreferrer">
                         <h3 style="flex-basis: 40px;">@project.Title</h3>
                     </a>
-                    <p class="small">@project.Description</p>
+                    <p class="small">@((MarkupString)project.Description)</p> <!-- Updated line -->
                 </div>
             }
         </div>
@@ -43,5 +43,13 @@
     {
         projects = await Http.GetFromJsonAsync<List<Project>>("sample-data/projects.json");
         hero = await HeroImageService.GetHeroAsync(img => img.Name is "portfolio");
+    }
+
+    public class Project
+    {
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public string Url { get; set; }
+        public string Image { get; set; }
     }
 }
