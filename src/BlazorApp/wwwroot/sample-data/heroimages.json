@@ -13,5 +13,10 @@
     "name": "portfolio",
     "src": "images/MochiPerfecto.jpg",
     "alt": "Mochi the Perfect Cat"
+  },
+  {
+    "name": "education",
+    "src": "images/biology.jpg",
+    "alt": "biology"
   }
 ]
