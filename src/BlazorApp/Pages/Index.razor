@@ -1,6 +1,7 @@
 @page "/"
 @inject HttpClient Http
 @inject HeroImageService HeroImageService
+@using MudBlazor
 
 <PageTitle>Portfolio</PageTitle>
 
@@ -8,4 +9,5 @@
 <Home Http=@Http HeroImageService=@HeroImageService />
 <About Http=@Http HeroImageService=@HeroImageService />
 <Portfolio Http=@Http HeroImageService=@HeroImageService />
+<MudButton Variant="Variant.Filled" Color="Color.Primary">Click Me</MudButton>
 <Footer Http=@Http PrimaryColor="#4E567E" SecondaryColor="#D2F1E4" />
