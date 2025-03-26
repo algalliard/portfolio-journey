@@ -1,4 +1,9 @@
 @using MudBlazor
+@using System.Net.Http.Json
+@inject HttpClient Http
+@inject HeroImageService HeroImageService
+
+
 
 <section class="light" id="Education">
     @if (hero is not null)
@@ -6,11 +11,13 @@
         <img class="background" src="@(hero.Src)" alt="@(hero.Alt)" />
     }
     <h2>Education</h2>
-    @if (Education is null)
-        {
-            <p><em>Loading...</em></p>
-        }
-        else
+    @if (education is null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else
+    {
+        @foreach (var item in education)
         {
             <MudCard>
                 <MudCardMedia Image="images/Facultad_de_Ciencias_UGR.png" Height="200" />
@@ -57,5 +64,23 @@
                 </MudCardActions>
             </MudCard>
             }
-
+    }
 </section>
+
+@code {
+    private HeroImage? hero;
+    private List<EducationItem>? education;
+
+    protected override async Task OnInitializedAsync()
+    {
+        hero = await HeroImageService.GetHeroAsync(img => img.Name == "education");
+        education = await Http.GetFromJsonAsync<List<EducationItem>>("api/education");
+    }
+
+    private class EducationItem
+    {
+        public string Image { get; set; }
+        public string Title { get; set; }
+        public string Description { get; set; }
+    }
+}
